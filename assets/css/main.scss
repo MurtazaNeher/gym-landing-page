@@ -530,3 +530,147 @@ li {
 
     }
 }
+
+// Footer sec
+.footer-sec {
+    background: $dark;
+
+    .list-title {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: $white;
+        margin-bottom: 1em;
+    }
+
+    .l-part {
+        img {
+            width: 230px;
+            max-width: 100%;
+            margin-bottom: 3em;
+        }
+
+        .para {
+            color: $white;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+    }
+
+    .mid-part {
+
+
+
+        .ft-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+
+            .ft-links-list {
+
+                ul {
+                    display: flex;
+                    gap: 10px;
+                    flex-direction: column;
+                }
+
+                .links {
+
+                    a {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 18px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: $light;
+                    }
+
+                }
+            }
+
+            .ft-det-list {
+                display: flex;
+                gap: 10px;
+                flex-direction: column;
+
+                .det-li {
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+
+                    .img-wrapper {
+                        height: 44px;
+                        width: 44px;
+                        border-radius: 50px;
+                        background: $primary;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            width: 20px;
+                        }
+                    }
+
+                    .det {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        gap: 3px;
+
+                        h6 {
+                            font-size: 14px;
+                            color: $white;
+                            font-weight: 300;
+                            line-height: 18px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            margin: 0;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .r-part {
+        .email-box-wrapper {
+            background: $light;
+            border-radius: 5px;
+            padding: 0.2em 0.3em;
+
+            display: flex;
+            align-items: center;
+
+            input {
+                width: 100%;
+                border: none;
+                outline: none;
+                background: none;
+            }
+
+            .send-btn {
+                background: $primary;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 18px;
+                letter-spacing: 0px;
+                text-align: left;
+                padding: 0.9em 1.2em;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                color: $white;
+                margin: 0;
+
+
+            }
+        }
+    }
+}

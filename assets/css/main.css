@@ -614,4 +614,112 @@ li {
 .mail-sec .r-part .submit-btn:hover {
   box-shadow: 4px 5px 30px rgba(0, 0, 0, 0.25);
   transform: translateY(-3px);
+}
+
+.footer-sec {
+  background: #141B23;
+}
+.footer-sec .list-title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 1em;
+}
+.footer-sec .l-part img {
+  width: 230px;
+  max-width: 100%;
+  margin-bottom: 3em;
+}
+.footer-sec .l-part .para {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.footer-sec .mid-part .ft-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.footer-sec .mid-part .ft-grid .ft-links-list ul {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.footer-sec .mid-part .ft-grid .ft-links-list .links a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #F6F6F6;
+}
+.footer-sec .mid-part .ft-grid .ft-det-list {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.footer-sec .mid-part .ft-grid .ft-det-list .det-li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.footer-sec .mid-part .ft-grid .ft-det-list .det-li .img-wrapper {
+  height: 44px;
+  width: 44px;
+  border-radius: 50px;
+  background: #FD552B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-sec .mid-part .ft-grid .ft-det-list .det-li .img-wrapper img {
+  width: 20px;
+}
+.footer-sec .mid-part .ft-grid .ft-det-list .det-li .det {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3px;
+}
+.footer-sec .mid-part .ft-grid .ft-det-list .det-li .det h6 {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+}
+.footer-sec .r-part .email-box-wrapper {
+  background: #F6F6F6;
+  border-radius: 5px;
+  padding: 0.2em 0.3em;
+  display: flex;
+  align-items: center;
+}
+.footer-sec .r-part .email-box-wrapper input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+}
+.footer-sec .r-part .email-box-wrapper .send-btn {
+  background: #FD552B;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 0.9em 1.2em;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */
