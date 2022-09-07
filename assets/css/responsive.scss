@@ -1,0 +1,144 @@
+@import 'roots';
+
+// Responsive
+// Tablets
+@media only screen and (max-width: 1024px) {
+
+    .main-btn {
+
+        display: block;
+
+    }
+
+   
+
+    .sec {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        overflow: hidden;
+    }
+
+    .semi-bold {
+        font-weight: 600;
+    }
+
+    .sec-head {
+        margin-bottom: 1rem;
+
+        h3 {
+            color: $black;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 56px;
+            letter-spacing: -0.03em;
+        }
+
+        &-center {
+            text-align: center;
+        }
+    }
+
+    
+
+    // Hero sec
+    .hero-sec{
+
+        .row{
+            flex-wrap: wrap-reverse !important; 
+        }
+
+        .r-part{
+            img{
+                width: 90%;
+                display: table;
+                margin: auto;
+            }
+        }
+        &:after{
+            width: 0;
+        }
+    }
+
+    .about-sec{
+        .r-part{
+            .about-low-grid{
+                justify-content: center;
+                align-items: center;
+                gap: 35px;
+
+                .l-part{
+                    align-items: center;
+                    gap: 10px;
+                }
+            }
+        }
+       
+    }
+
+    .counter-sec{
+       
+        .counter-val,.counter-name{
+            text-align: center;
+        }
+    }
+
+    // Mailsec
+    .mail-sec {
+        background-color: #3734A9;
+
+        .l-part {
+
+            .para {
+                width: 80%;
+            }
+        }
+
+        .r-part {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 25px;
+
+            input {
+                outline: none;
+                border: none;
+                background: #F2F3F4;
+                display: block;
+                padding: 10px;
+                width: 300px;
+                opacity: 0.2;
+                border-radius: 5px;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px;
+                text-align: left;
+                color: #BBB5E0;
+            }
+
+            .submit-btn {
+                width: 300px;
+                background-color: #FF7F5C;
+                color: $white;
+                padding: 10px 25px;
+                border-radius: 5px;
+                text-transform: uppercase;
+                outline: none;
+                border: none;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 30px;
+                letter-spacing: 0em;
+                transition: all 0.3s;
+
+                &:hover {
+                    box-shadow: 4px 5px 30px rgba(0, 0, 0, 0.25);
+                    transform: translateY(-3px);
+                }
+            }
+
+        }
+    }
+}
