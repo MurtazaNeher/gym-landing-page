@@ -473,7 +473,7 @@ li {
 
 // Mailsec
 .mail-sec {
-    background-color: #3734A9;
+    background-color: $black;
 
     .l-part {
 
@@ -494,17 +494,17 @@ li {
         input {
             outline: none;
             border: none;
-            background: #F2F3F4;
+            background: $light;
             display: block;
             padding: 10px;
             width: 300px;
-            opacity: 0.2;
+            // opacity: 0.2;
             border-radius: 5px;
             font-size: 18px;
             font-weight: 400;
             line-height: 30px;
             text-align: left;
-            color: #BBB5E0;
+            color: $dark;
         }
 
         .submit-btn {
@@ -534,6 +534,8 @@ li {
 // Footer sec
 .footer-sec {
     background: $dark;
+    padding: 0 !important;
+    padding-top: 5em !important;
 
     .list-title {
         font-size: 20px;
@@ -594,9 +596,13 @@ li {
             }
 
             .ft-det-list {
-                display: flex;
-                gap: 10px;
-                flex-direction: column;
+
+                ul {
+
+                    display: flex;
+                    gap: 10px;
+                    flex-direction: column;
+                }
 
                 .det-li {
                     display: flex;
@@ -637,6 +643,8 @@ li {
                 }
             }
         }
+
+
     }
 
     .r-part {
@@ -670,6 +678,39 @@ li {
                 margin: 0;
 
 
+            }
+        }
+    }
+
+    .ft-copy {
+        margin-top: 5em;
+        padding: 1em 0;
+        background: $black;
+
+        .l-part {
+            font-size: 14px;
+            color: $white;
+            margin: 0;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: left;
+            padding: 0;
+        }
+
+        .r-part {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            a {
+                color: $white;
+                text-transform: capitalize;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0px;
+                text-align: left;
             }
         }
     }

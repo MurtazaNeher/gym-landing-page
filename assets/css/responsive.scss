@@ -82,6 +82,20 @@
         }
     }
 
+    .main-nav{
+        
+    &.sticky {
+        
+        .nav-list {
+            li {
+                a {
+                    color: $dark !important;
+                }
+            }
+        }
+    }
+    }
+
     // Mailsec
     .mail-sec {
         background-color: #3734A9;
@@ -141,4 +155,24 @@
 
         }
     }
+
+   .footer-sec{
+    .mid-part{
+        .ft-grid{
+            grid-template-columns: 1fr;
+
+        }
+    }
+
+    .ft-copy{
+        .l-part{
+            text-align: center;
+        }
+
+        .r-part{
+            text-align: center;
+            justify-content: center;
+        }
+    }
+   }
 }
