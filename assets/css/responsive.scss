@@ -43,10 +43,21 @@
     // Hero sec
     .hero-sec{
 
+        .ovr{
+            right: 20px;
+            top: 10px;
+            width: 100px;
+        }
+
         .row{
             flex-wrap: wrap-reverse !important; 
         }
 
+        .l-part{
+            .sec-head{
+                margin-bottom: 10px !important;
+            }
+        }
         .r-part{
             img{
                 width: 90%;

@@ -24,8 +24,16 @@
   .sec-head-center {
     text-align: center;
   }
+  .hero-sec .ovr {
+    right: 20px;
+    top: 10px;
+    width: 100px;
+  }
   .hero-sec .row {
     flex-wrap: wrap-reverse !important;
+  }
+  .hero-sec .l-part .sec-head {
+    margin-bottom: 10px !important;
   }
   .hero-sec .r-part img {
     width: 90%;
